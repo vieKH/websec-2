@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Расписание</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/ssau.png" type="img/png">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Расписание</h1>
+            <input type="text" list="selectGroups" 
+                placeholder=" Поиск по номеру группы или ФИО преподавателя ..."
+                id="inputTextGroup" class="selectGroups"/>
+            <datalist  id="selectGroups"></datalist>
+        </header>
+
+        <div class="info-box">
+            <div>
+                <h2 id="currentGroup"></h2>
+                
+                <p>Начало учебного года: 02.09.2024</p>
+            </div>
+            <div><a href="#" class="download">Скачать PDF</a></div>
+            
+        </div>
+
+        <div class="legend">
+            <div class="legend-item">
+                <span class="color-box lecture"></span><span>Лекция</span>
+            </div>
+            <div class="legend-item">
+                <span class="color-box lab"></span><span>Лабораторная </span>
+            </div>
+            <div class="legend-item">
+                <span class="color-box prak"></span><span>Практика </span>
+            </div>
+            <div class="legend-item">
+                <span class="color-box exam"></span><span>Экзамен</span>
+            </div>
+            <div class="legend-item">
+                <span class="color-box credit"></span><span>Зачёт</span>
+            </div>
+            <div class="legend-item">
+                <span class="color-box consultation"></span><span>Консультация</span>
+            </div>
+            <div class="legend-item">
+                <span class="color-box other"></span><span>Другое</span>
+            </div>
+
+            
+        </div>
+        
+        <div class="timetable">
+            <div class="week">
+                <button id="previousWeek" class="previous-week" onclick="previousWeek()">Предыдущая неделя</button>
+                <h3 id="currentWeek">31 неделя</h3>
+                <button id="nextWeek" class="next-week" onclick="nextWeek()">Следующая неделя</button>
+            </div>
+        </div>
+        <table id="schedule"></table>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

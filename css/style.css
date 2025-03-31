@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4ff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background-color: #003d99;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header input {
+    margin-top: 15px;
+    padding: 10px;
+    width: 80%;
+}
+
+.info-box {
+    background: linear-gradient(90deg, #4f8cff, #3f52d9); 
+    color: white;
+    padding: 20px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    border-radius: 8px;
+}
+
+.download {
+    background-color: #ffcc00;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+
+.previous-week .next-week {
+    background-color: #ffcc00;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+
+.timetable {
+    margin: 20px 0;
+}
+
+.timetable h3 {
+    display: inline;
+    margin: 0 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.lesson {
+    background-color: #ffffff;
+}
+
+.lesson span {
+    display: block;
+    font-size: 12px;
+    color: #666666;
+}
+
+.lecture {
+    background-color: #a8f2a8; 
+}
+
+.lab {
+    background-color: #a8d8ff;
+}
+
+.exam {
+    background-color: #c7b8f2; 
+}
+
+.credit {
+    background-color: #f4e28c; 
+}
+
+.consultation {
+    background-color: #b8f2f4; 
+}
+
+.other {
+    background-color: #f4c7a8; 
+}
+
+.legend {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+
+.color-box {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.lecture {
+    background-color: #a8f2a8;
+}
+
+.lab {
+    background-color: #9009df;
+}
+
+.prak {
+    background-color: #2008f1;
+}
+.exam {
+    background-color: #c7b8f2;
+}
+
+.credit {
+    background-color: #f4e28c;
+}
+
+.consultation {
+    background-color: #b8f2f4;
+}
+
+.other {
+    background-color: #f4c7a8;
+}
+
+.week {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.previous-week, .next-week {
+    background-color: transparent;
+    border: none;
+    color: #1E64C8;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.previous-week:hover, .next-week:hover {
+    color: #0d479d; 
+    text-decoration: none;
+}
+
+th div {
+    font-size: 12px;
+    color: #666666;
+    margin-top: 5px;
+}
+
+.selectGroups:hover 
+{
+    cursor: pointer;
+}
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css);
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');

@@ -1,0 +1,26 @@
+{
+  "name": "adora",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2",
+    "node-html-parser": "^7.0.1",
+    "body-parser": "^1.20.0",
+    "fs": "^0.0.1-security",
+    "htmlparser": "^1.7.7",
+    "xhr2": "^0.2.1"
+  }, 
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
